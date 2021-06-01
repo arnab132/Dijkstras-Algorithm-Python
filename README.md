@@ -6,6 +6,8 @@ Given a graph and a source vertex in the graph, find the shortest paths from sou
 
 Dijkstra’s algorithm is very similar to Prim’s algorithm for minimum spanning tree. Like Prim’s MST, we generate an SPT (shortest path tree) with a given source as root. We maintain two sets, one set contains vertices included in the shortest-path tree, another set includes vertices not yet included in the shortest-path tree. At every step of the algorithm, we find a vertex that is in the other set (set of not yet included) and has a minimum distance from the source.
 
+![image](https://user-images.githubusercontent.com/22562694/120260452-8d455d80-c2b3-11eb-9d84-6b8b46dffc2c.png)
+
 Below are the detailed steps used in Dijkstra’s algorithm to find the shortest path from a single source vertex to all other vertices in the given graph. 
 
 Algorithm 
